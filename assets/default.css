@@ -1,0 +1,101 @@
+html {
+    background: #ffebe6;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+table {
+    border-collapse: collapse;
+    border: 0px;
+}
+th, td {
+    text-align: left;
+    padding: 4px;
+}
+th {
+    background-color: #ff9999;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #ffcccc;
+}
+tr:nth-child(odd) {
+    background-color: #ffe6e6;
+}
+tr:hover{
+    background: #ffc2b3;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+#wrapper {
+    width: 1024px;
+    padding: 0px 0px;
+    margin: 0 auto;
+    background: #ffd6cc;
+    box-shadow: 2px 2px 5px #000;
+}
+#left-col {
+    background: #ffebe6;
+    margin: 10px;
+    padding: 0px 0px;
+    box-shadow: 2px 2px 5px #000;
+    border-radius: 3px;
+    width: 150px;
+    float: left;
+}
+#left-col ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#left-col li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    border-radius: 3px;
+    width: auto;
+    padding: 0.5em;
+    text-align: center;
+}
+#left-col li a:hover{
+    background: #ffc2b3;
+}
+#content {
+    background: #ffebe6;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #000;
+    border-radius: 3px;
+    width: 814px;
+    float: left;
+}
+#footer {
+    clear: both;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+    vertical-align: center;
+    margin: auto;
+}
+#checking {
+float: left;
+width: 492px;
+padding-left: 20px;
+}
+
+#saving {
+float:right;
+width: 492px;
+padding-right: 20px;
+}
